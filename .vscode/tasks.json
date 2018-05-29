@@ -16,10 +16,10 @@
             }
         },
         {
-            "label": "Run_Pester_And_Commit",
+            "label": "run_pester_and_commit",
             "command":"powershell",
             "args": [
-                "-File","${cwd}/.vscode/run_pester.ps1"
+                "-File","${cwd}/.vscode/run_pester_and_commit.ps1"
             ],
             "group": "test",
             "presentation": {
