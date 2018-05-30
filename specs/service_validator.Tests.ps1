@@ -7,9 +7,13 @@ $moduleroot = Split-Path -Parent $MyInvocation.MyCommand.Path
  . "powershell_scripts\serviceValidator.ps1"
 
 Describe "Testing services"{
-    Mock Test-Svc {return "Runnig"}
+    Mock Test-Svc {return "Stoped"}
 
     It "if check iis service should be Stoped"{
         Test-Svc | Should Be "Stoped"
+    }
+
+    It "if check iis service should be Running"{
+        Test-Svc | Should Be "Runnig"
     }
 }
