@@ -1,4 +1,4 @@
 # pester_tests_generator
 
-TODO: Enter the cookbook description here.
+Generate pester test empty files based on a template.
 
