@@ -37,8 +37,8 @@
     "filesystem": {
       "C:": {
         "kb_size": 132175097,
-        "kb_available": 33627611,
-        "kb_used": 98547486,
+        "kb_available": 33358606,
+        "kb_used": 98816491,
         "percent_used": 74,
         "mount": "C:",
         "fs_type": "ntfs",
@@ -46,8 +46,8 @@
       },
       "D:": {
         "kb_size": 117305241,
-        "kb_available": 64200445,
-        "kb_used": 53104796,
+        "kb_available": 64200425,
+        "kb_used": 53104816,
         "percent_used": 45,
         "mount": "D:",
         "fs_type": "ntfs",
@@ -76,13 +76,13 @@
         "distributed": false,
         "encryption_level": 256,
         "foreground_application_boost": 2,
-        "free_physical_memory": "3684536",
-        "free_space_in_paging_files": "2468628",
-        "free_virtual_memory": "4852084",
+        "free_physical_memory": "3197928",
+        "free_space_in_paging_files": "2468996",
+        "free_virtual_memory": "3702416",
         "install_date": "20180518120249.000000+180",
         "large_system_cache": null,
         "last_boot_up_time": "20180601154950.346005+180",
-        "local_date_time": "20180604101827.860000+180",
+        "local_date_time": "20180604121453.659000+180",
         "locale": "0409",
         "manufacturer": "Microsoft Corporation",
         "max_number_of_processes": -1,
@@ -92,7 +92,7 @@
         ],
         "name": "Microsoft Windows 10 Pro|C:\\Windows|\\Device\\Harddisk0\\Partition2",
         "number_of_licensed_users": 0,
-        "number_of_processes": 206,
+        "number_of_processes": 209,
         "number_of_users": 5,
         "operating_system_sku": 48,
         "organization": "",
@@ -218,10 +218,10 @@
     "memory": {
       "swap": {
         "total": "2490368kB",
-        "free": "2468628kB"
+        "free": "2468996kB"
       },
       "total": "8282696kB",
-      "free": "3684472kB"
+      "free": "3185876kB"
     },
     "network": {
       "interfaces": {
@@ -243,8 +243,8 @@
             "default_ttl": null,
             "description": "Intel(R) Dual Band Wireless-AC 3165",
             "dhcp_enabled": true,
-            "dhcp_lease_expires": "19700104155453.000000+180",
-            "dhcp_lease_obtained": "19700103155453.000000+180",
+            "dhcp_lease_expires": "19700104221719.000000+180",
+            "dhcp_lease_obtained": "19700103221719.000000+180",
             "dhcp_server": "192.168.1.1",
             "dns_domain": null,
             "dns_domain_suffix_search_order": [
@@ -379,7 +379,6 @@
             "192.168.1.255": "ff:ff:ff:ff:ff:ff",
             "224.0.0.22": "01:00:5e:00:00:16",
             "224.0.0.251": "01:00:5e:00:00:fb",
-            "224.0.0.253": "01:00:5e:00:00:fd",
             "239.255.255.250": "01:00:5e:7f:ff:fa",
             "255.255.255.255": "ff:ff:ff:ff:ff:ff"
           },
@@ -552,8 +551,8 @@
     "platform": "windows",
     "platform_version": "10.0.16299",
     "platform_family": "windows",
-    "uptime_seconds": 239318,
-    "uptime": "2 days 18 hours 28 minutes 38 seconds",
+    "uptime_seconds": 246305,
+    "uptime": "2 days 20 hours 25 minutes 05 seconds",
     "virtualization": {
       "systems": {
 
@@ -626,7 +625,7 @@
         "enabled": false
       }
     },
-    "ohai_time": 1528096711.124796,
+    "ohai_time": 1528103701.030921,
     "packages": {
       "7-Zip 16.04 (x64)": {
         "version": "16.04",
