@@ -1,0 +1,14 @@
+
+Describe serviceValidator{
+    #Mock Test-Svc {return "Stoped"}
+    #chage the number to make it failed
+    #Mock Get-AllServicesCount {return 234} mock examples
+
+    It "Enter the description what the test should verify"{
+       # Test-Svc | Should Be "Stoped"
+    }
+
+    It "Enter the description what the test should verify"{
+        #Invoke-AreSvcRunnig | Should Be $true
+    }
+}

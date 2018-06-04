@@ -1,0 +1,834 @@
+{
+  "name": "Laptop491.svdomain1.softvision.ro",
+  "normal": {
+    "tags": [
+
+    ]
+  },
+  "default": {
+    "config": {
+      "work_space": {
+        "base_path": "D:\\Pestrer_POC\\",
+        "ps_extension": ".ps1",
+        "ps_files": [
+          "serviceValidator"
+        ]
+      }
+    }
+  },
+  "automatic": {
+    "cpu": {
+      "0": {
+        "cores": 2,
+        "vendor_id": "GenuineIntel",
+        "family": "198",
+        "model": "19971",
+        "stepping": "3",
+        "physical_id": "CPU0",
+        "model_name": "Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz",
+        "description": "Intel64 Family 6 Model 78 Stepping 3",
+        "mhz": "2592",
+        "cache_size": "512 KB"
+      },
+      "total": 4,
+      "cores": 2,
+      "real": 1
+    },
+    "filesystem": {
+      "C:": {
+        "kb_size": 132175097,
+        "kb_available": 33627611,
+        "kb_used": 98547486,
+        "percent_used": 74,
+        "mount": "C:",
+        "fs_type": "ntfs",
+        "volume_name": ""
+      },
+      "D:": {
+        "kb_size": 117305241,
+        "kb_available": 64200445,
+        "kb_used": 53104796,
+        "percent_used": 45,
+        "mount": "D:",
+        "fs_type": "ntfs",
+        "volume_name": "New Volume"
+      }
+    },
+    "kernel": {
+      "os_info": {
+        "boot_device": "\\Device\\HarddiskVolume1",
+        "build_number": "16299",
+        "build_type": "Multiprocessor Free",
+        "caption": "Microsoft Windows 10 Pro",
+        "code_set": "1252",
+        "country_code": "1",
+        "creation_class_name": "Win32_OperatingSystem",
+        "cs_creation_class_name": "Win32_ComputerSystem",
+        "csd_version": null,
+        "cs_name": "LAPTOP491",
+        "current_time_zone": 180,
+        "data_execution_prevention_32_bit_applications": true,
+        "data_execution_prevention_available": true,
+        "data_execution_prevention_drivers": true,
+        "data_execution_prevention_support_policy": 2,
+        "debug": false,
+        "description": "",
+        "distributed": false,
+        "encryption_level": 256,
+        "foreground_application_boost": 2,
+        "free_physical_memory": "3684536",
+        "free_space_in_paging_files": "2468628",
+        "free_virtual_memory": "4852084",
+        "install_date": "20180518120249.000000+180",
+        "large_system_cache": null,
+        "last_boot_up_time": "20180601154950.346005+180",
+        "local_date_time": "20180604101827.860000+180",
+        "locale": "0409",
+        "manufacturer": "Microsoft Corporation",
+        "max_number_of_processes": -1,
+        "max_process_memory_size": "137438953344",
+        "mui_languages": [
+          "en-US"
+        ],
+        "name": "Microsoft Windows 10 Pro|C:\\Windows|\\Device\\Harddisk0\\Partition2",
+        "number_of_licensed_users": 0,
+        "number_of_processes": 206,
+        "number_of_users": 5,
+        "operating_system_sku": 48,
+        "organization": "",
+        "os_architecture": "64-bit",
+        "os_language": 1033,
+        "os_product_suite": 256,
+        "os_type": 18,
+        "other_type_description": null,
+        "pae_enabled": null,
+        "plus_product_id": null,
+        "plus_version_number": null,
+        "portable_operating_system": false,
+        "primary": true,
+        "product_type": 1,
+        "registered_user": "Windows User",
+        "serial_number": "00330-80000-00000-AA935",
+        "service_pack_major_version": 0,
+        "service_pack_minor_version": 0,
+        "size_stored_in_paging_files": "2490368",
+        "status": "OK",
+        "suite_mask": 272,
+        "system_device": "\\Device\\HarddiskVolume2",
+        "system_directory": "C:\\Windows\\system32",
+        "system_drive": "C:",
+        "total_swap_space_size": null,
+        "total_virtual_memory_size": "10773064",
+        "total_visible_memory_size": "8282696",
+        "version": "10.0.16299",
+        "windows_directory": "C:\\Windows"
+      },
+      "name": "Microsoft Windows 10 Pro",
+      "release": "10.0.16299",
+      "version": "10.0.16299  Build 16299",
+      "os": "WINNT",
+      "cs_info": {
+        "admin_password_status": 1,
+        "automatic_managed_pagefile": true,
+        "automatic_reset_boot_option": true,
+        "automatic_reset_capability": true,
+        "boot_option_on_limit": null,
+        "boot_option_on_watch_dog": null,
+        "boot_rom_supported": true,
+        "boot_status": [
+          0,
+          0,
+          0,
+          221,
+          26,
+          26,
+          0,
+          3,
+          1,
+          0
+        ],
+        "bootup_state": "Normal boot",
+        "caption": "LAPTOP491",
+        "chassis_bootup_state": 3,
+        "chassis_sku_number": null,
+        "creation_class_name": "Win32_ComputerSystem",
+        "current_time_zone": 180,
+        "daylight_in_effect": true,
+        "description": "AT/AT COMPATIBLE",
+        "dns_host_name": "Laptop491",
+        "domain": "svdomain1.softvision.ro",
+        "domain_role": 1,
+        "enable_daylight_savings_time": true,
+        "front_panel_reset_status": 0,
+        "hypervisor_present": false,
+        "infrared_supported": false,
+        "initial_load_info": null,
+        "install_date": null,
+        "keyboard_password_status": 0,
+        "last_load_info": null,
+        "manufacturer": "HP",
+        "model": "HP ProBook 430 G3",
+        "name": "LAPTOP491",
+        "name_format": null,
+        "network_server_mode_enabled": true,
+        "number_of_logical_processors": 4,
+        "number_of_processors": 1,
+        "oem_string_array": [
+          "FBYTE#3X47676J6S6Z6b7J7M7Q7W7saBapaqawbhdUeh.d2;",
+          "BUILDID#15WWR4CW603#SABB#DABB;",
+          "EDK2_1"
+        ],
+        "part_of_domain": true,
+        "pause_after_reset": "-1",
+        "pc_system_type": 2,
+        "pc_system_type_ex": 2,
+        "power_management_capabilities": null,
+        "power_management_supported": null,
+        "power_on_password_status": 0,
+        "power_state": 0,
+        "power_supply_state": 3,
+        "primary_owner_contact": null,
+        "primary_owner_name": "Windows User",
+        "reset_capability": 1,
+        "reset_count": -1,
+        "reset_limit": -1,
+        "roles": [
+          "LM_Workstation",
+          "LM_Server",
+          "NT",
+          "Potential_Browser",
+          "Master_Browser"
+        ],
+        "status": "OK",
+        "support_contact_description": null,
+        "system_family": "103C_5336AN G=N L=BUS B=HP S=PRO",
+        "system_sku_number": "W4N76EA#ABB",
+        "system_startup_delay": null,
+        "system_startup_options": null,
+        "system_startup_setting": null,
+        "system_type": "x64-based PC",
+        "thermal_state": 3,
+        "total_physical_memory": "8481480704",
+        "user_name": "LAPTOP491\\marius.huluta",
+        "wake_up_type": 6,
+        "workgroup": null
+      },
+      "machine": "x86_64"
+    },
+    "memory": {
+      "swap": {
+        "total": "2490368kB",
+        "free": "2468628kB"
+      },
+      "total": "8282696kB",
+      "free": "3684472kB"
+    },
+    "network": {
+      "interfaces": {
+        "0x6": {
+          "configuration": {
+            "ip_address": [
+              "192.168.1.119",
+              "fe80::9d9a:1368:bfb3:ce6b"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000001] Intel(R) Dual Band Wireless-AC 3165",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": [
+              "192.168.1.1"
+            ],
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "Intel(R) Dual Band Wireless-AC 3165",
+            "dhcp_enabled": true,
+            "dhcp_lease_expires": "19700104155453.000000+180",
+            "dhcp_lease_obtained": "19700103155453.000000+180",
+            "dhcp_server": "192.168.1.1",
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "svdomain1.softvision.ro",
+              "softvision.ro"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "Laptop491",
+            "dns_server_search_order": [
+              "192.168.1.1"
+            ],
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": [
+              0
+            ],
+            "igmp_level": null,
+            "index": 1,
+            "interface_index": 6,
+            "ip_connection_metric": 55,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "58:FB:84:B9:EA:3D",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "Netwtw04",
+            "setting_id": "{3A7BEB21-35BA-44BE-9DE6-39172E0A966C}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000001] Intel(R) Dual Band Wireless-AC 3165",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "Intel(R) Dual Band Wireless-AC 3165",
+            "device_id": "1",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{3A7BEB21-35BA-44BE-9DE6-39172E0A966C}",
+            "index": 1,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 6,
+            "last_error_code": null,
+            "mac_address": "58:FB:84:B9:EA:3D",
+            "manufacturer": "Intel Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "Intel(R) Dual Band Wireless-AC 3165",
+            "net_connection_id": "Wi-Fi",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "PCI\\VEN_8086&DEV_3165&SUBSYS_40108086&REV_81\\58FB84FFFFB9EA3D00",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "Intel(R) Dual Band Wireless-AC 3165",
+            "service_name": "Netwtw04",
+            "speed": "72200000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "LAPTOP491",
+            "time_of_last_reset": "20180601154950.346005+180"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.1.119": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.1.255",
+              "family": "inet"
+            },
+            "fe80::9d9a:1368:bfb3:ce6b": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "58:FB:84:B9:EA:3D": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "192.168.1.1": "30:5a:3a:cb:2a:30",
+            "192.168.1.161": "f8:3f:51:26:41:9e",
+            "192.168.1.255": "ff:ff:ff:ff:ff:ff",
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "224.0.0.253": "01:00:5e:00:00:fd",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        },
+        "0x13": {
+          "configuration": {
+            "ip_address": [
+              "192.168.56.1",
+              "fe80::5154:b958:ffc0:a6b4"
+            ],
+            "arp_always_source_route": null,
+            "arp_use_ether_snap": null,
+            "caption": "[00000017] VirtualBox Host-Only Ethernet Adapter",
+            "database_path": "%SystemRoot%\\System32\\drivers\\etc",
+            "dead_gw_detect_enabled": null,
+            "default_ip_gateway": null,
+            "default_tos": null,
+            "default_ttl": null,
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "dhcp_enabled": false,
+            "dhcp_lease_expires": null,
+            "dhcp_lease_obtained": null,
+            "dhcp_server": null,
+            "dns_domain": null,
+            "dns_domain_suffix_search_order": [
+              "svdomain1.softvision.ro",
+              "softvision.ro"
+            ],
+            "dns_enabled_for_wins_resolution": false,
+            "dns_host_name": "Laptop491",
+            "dns_server_search_order": null,
+            "domain_dns_registration_enabled": false,
+            "forward_buffer_memory": null,
+            "full_dns_registration_enabled": true,
+            "gateway_cost_metric": null,
+            "igmp_level": null,
+            "index": 17,
+            "interface_index": 19,
+            "ip_connection_metric": 25,
+            "ip_enabled": true,
+            "ip_filter_security_enabled": false,
+            "ip_port_security_enabled": null,
+            "ip_sec_permit_ip_protocols": [
+
+            ],
+            "ip_sec_permit_tcp_ports": [
+
+            ],
+            "ip_sec_permit_udp_ports": [
+
+            ],
+            "ip_subnet": [
+              "255.255.255.0",
+              "64"
+            ],
+            "ip_use_zero_broadcast": null,
+            "ipx_address": null,
+            "ipx_enabled": null,
+            "ipx_frame_type": null,
+            "ipx_media_type": null,
+            "ipx_network_number": null,
+            "ipx_virtual_net_number": null,
+            "keep_alive_interval": null,
+            "keep_alive_time": null,
+            "mac_address": "0A:00:27:00:00:13",
+            "mtu": null,
+            "num_forward_packets": null,
+            "pmtubh_detect_enabled": null,
+            "pmtu_discovery_enabled": null,
+            "service_name": "VBoxNetAdp",
+            "setting_id": "{FB49DF0E-4B32-4F4F-92BE-958C69B2EFDA}",
+            "tcpip_netbios_options": 0,
+            "tcp_max_connect_retransmissions": null,
+            "tcp_max_data_retransmissions": null,
+            "tcp_num_connections": null,
+            "tcp_use_rfc1122_urgent_pointer": null,
+            "tcp_window_size": null,
+            "wins_enable_lm_hosts_lookup": true,
+            "wins_host_lookup_file": null,
+            "wins_primary_server": null,
+            "wins_scope_id": "",
+            "wins_secondary_server": null
+          },
+          "instance": {
+            "adapter_type": "Ethernet 802.3",
+            "adapter_type_id": 0,
+            "auto_sense": null,
+            "availability": 3,
+            "caption": "[00000017] VirtualBox Host-Only Ethernet Adapter",
+            "config_manager_error_code": 0,
+            "config_manager_user_config": false,
+            "creation_class_name": "Win32_NetworkAdapter",
+            "description": "VirtualBox Host-Only Ethernet Adapter",
+            "device_id": "17",
+            "error_cleared": null,
+            "error_description": null,
+            "guid": "{FB49DF0E-4B32-4F4F-92BE-958C69B2EFDA}",
+            "index": 17,
+            "install_date": null,
+            "installed": true,
+            "interface_index": 19,
+            "last_error_code": null,
+            "mac_address": "0A:00:27:00:00:13",
+            "manufacturer": "Oracle Corporation",
+            "max_number_controlled": 0,
+            "max_speed": null,
+            "name": "VirtualBox Host-Only Ethernet Adapter",
+            "net_connection_id": "VirtualBox Host-Only Network",
+            "net_connection_status": 2,
+            "net_enabled": true,
+            "network_addresses": null,
+            "permanent_address": null,
+            "physical_adapter": true,
+            "pnp_device_id": "ROOT\\NET\\0000",
+            "power_management_capabilities": null,
+            "power_management_supported": false,
+            "product_name": "VirtualBox Host-Only Ethernet Adapter",
+            "service_name": "VBoxNetAdp",
+            "speed": "1000000000",
+            "status": null,
+            "status_info": null,
+            "system_creation_class_name": "Win32_ComputerSystem",
+            "system_name": "LAPTOP491",
+            "time_of_last_reset": "20180601154950.346005+180"
+          },
+          "counters": {
+
+          },
+          "addresses": {
+            "192.168.56.1": {
+              "prefixlen": "24",
+              "netmask": "255.255.255.0",
+              "broadcast": "192.168.56.255",
+              "family": "inet"
+            },
+            "fe80::5154:b958:ffc0:a6b4": {
+              "prefixlen": "64",
+              "family": "inet6",
+              "scope": "Link"
+            },
+            "0A:00:27:00:00:13": {
+              "family": "lladdr"
+            }
+          },
+          "mtu": null,
+          "type": "Ethernet 802.3",
+          "arp": {
+            "224.0.0.22": "01:00:5e:00:00:16",
+            "224.0.0.251": "01:00:5e:00:00:fb",
+            "239.255.255.250": "01:00:5e:7f:ff:fa",
+            "255.255.255.255": "ff:ff:ff:ff:ff:ff"
+          },
+          "encapsulation": "Ethernet"
+        }
+      },
+      "default_gateway": "192.168.1.1",
+      "default_interface": "0x6"
+    },
+    "counters": {
+      "network": {
+
+      }
+    },
+    "ipaddress": "192.168.1.119",
+    "macaddress": "58:FB:84:B9:EA:3D",
+    "ip6address": "fe80::5154:b958:ffc0:a6b4",
+    "os": "windows",
+    "os_version": "10.0.16299",
+    "platform": "windows",
+    "platform_version": "10.0.16299",
+    "platform_family": "windows",
+    "uptime_seconds": 239318,
+    "uptime": "2 days 18 hours 28 minutes 38 seconds",
+    "virtualization": {
+      "systems": {
+
+      }
+    },
+    "languages": {
+      "powershell": {
+        "version": "5.1.16299.98",
+        "ws_man_stack_version": "3.0",
+        "serialization_version": "1.1.0.1",
+        "clr_version": "4.0.30319.42000",
+        "build_version": "10.0.16299.98",
+        "compatible_versions": [
+          "1.0",
+          "2.0",
+          "3.0",
+          "4.0",
+          "5.0",
+          "5.1.16299.98"
+        ],
+        "remoting_protocol_version": "2.3"
+      },
+      "ruby": {
+        "platform": "x64-mingw32",
+        "version": "2.5.1",
+        "release_date": "2018-03-29",
+        "target": "x86_64-w64-mingw32",
+        "target_cpu": "x64",
+        "target_vendor": "w64",
+        "target_os": "mingw32",
+        "host": "x86_64-w64-mingw32",
+        "host_cpu": "x86_64",
+        "host_os": "mingw32",
+        "host_vendor": "w64",
+        "bin_dir": "C:/tools/ruby25/bin",
+        "ruby_bin": "C:/tools/ruby25/bin/ruby",
+        "gems_dir": "C:/tools/ruby25/lib/ruby/gems/2.5.0",
+        "gem_bin": "C:/tools/ruby25/bin/gem"
+      }
+    },
+    "chef_packages": {
+      "chef": {
+        "version": "13.8.5",
+        "chef_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5-universal-mingw32/lib"
+      },
+      "ohai": {
+        "version": "13.8.0",
+        "ohai_root": "C:/opscode/chefdk/embedded/lib/ruby/gems/2.4.0/gems/ohai-13.8.0/lib/ohai"
+      }
+    },
+    "dmi": {
+
+    },
+    "cloud_v2": null,
+    "cloud": null,
+    "command": {
+
+    },
+    "hostname": "Laptop491",
+    "machinename": "LAPTOP491",
+    "fqdn": "Laptop491.svdomain1.softvision.ro",
+    "domain": "svdomain1.softvision.ro",
+    "keys": {
+      "ssh": {
+
+      }
+    },
+    "fips": {
+      "kernel": {
+        "enabled": false
+      }
+    },
+    "ohai_time": 1528096711.124796,
+    "packages": {
+      "7-Zip 16.04 (x64)": {
+        "version": "16.04",
+        "publisher": "Igor Pavlov"
+      },
+      "Conexant ISST Audio": {
+        "version": "9.0.134.2",
+        "publisher": "Conexant"
+      },
+      "Git version 2.17.0": {
+        "version": "2.17.0",
+        "publisher": "The Git Development Community",
+        "installdate": "20180522"
+      },
+      "Mozilla Firefox 60.0.1 (x64 ro)": {
+        "version": "60.0.1",
+        "publisher": "Mozilla"
+      },
+      "Mozilla Maintenance Service": {
+        "version": "45.4.0",
+        "publisher": "Mozilla"
+      },
+      "Notepad++ (64-bit x64)": {
+        "version": "7.5.6",
+        "publisher": "Notepad++ Team"
+      },
+      "Synaptics Pointing Device Driver": {
+        "version": "19.0.19.65",
+        "publisher": "Synaptics Incorporated"
+      },
+      "Global VPN Client": {
+        "version": "4.9.9",
+        "publisher": "Dell SonicWALL",
+        "installdate": "20180518"
+      },
+      "Canon MG3600 series MP Drivers": {
+        "version": "1.00",
+        "publisher": "Canon Inc."
+      },
+      "Oracle VM VirtualBox 5.2.12": {
+        "version": "5.2.12",
+        "publisher": "Oracle Corporation",
+        "installdate": "20180522"
+      },
+      "Chef Development Kit v2.5.3": {
+        "version": "2.5.3.1",
+        "publisher": "Chef Software, Inc.",
+        "installdate": "20180523"
+      },
+      "LibreOffice 5.2.2.2": {
+        "version": "5.2.2.2",
+        "publisher": "The Document Foundation",
+        "installdate": "20180518"
+      },
+      "Microsoft Visual Studio Code": {
+        "version": "1.23.1",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180522"
+      },
+      "Canon MG3600 series On-screen Manual": {
+        "version": "7.8.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon My Image Garden": {
+        "version": "3.6.1",
+        "publisher": "Canon Inc."
+      },
+      "Canon My Image Garden Design Files": {
+        "version": "3.6.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon Inkjet Printer/Scanner/Fax Extended Survey Program": {
+        "version": "5.5.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon My Printer": {
+        "version": "3.3.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon Quick Menu": {
+        "version": "2.8.5",
+        "publisher": "Canon Inc."
+      },
+      "Canon IJ Network Scanner Selector EX": {
+        "version": "1.5.4.4",
+        "publisher": "Canon Inc."
+      },
+      "Canon IJ Network Tool": {
+        "version": "3.7.0",
+        "publisher": "Canon Inc."
+      },
+      "Canon IJ Scan Utility": {
+        "version": "1.1.20.13",
+        "publisher": "Canon Inc."
+      },
+      "Canon Easy-WebPrint EX": {
+        "version": "1.7.0.0",
+        "publisher": "Canon Inc."
+      },
+      "Foxit Reader": {
+        "version": "8.1.0.1013",
+        "publisher": "Foxit Software Inc.",
+        "installdate": "20180518"
+      },
+      "Google Chrome": {
+        "version": "66.0.3359.181",
+        "publisher": "Google Inc.",
+        "installdate": "20180518"
+      },
+      "Kaspersky Security Center 10 Network Agent": {
+        "version": "10.4.343",
+        "publisher": "AO Kaspersky Lab",
+        "installdate": "20180518"
+      },
+      "Mozilla Thunderbird 52.8.0 (x86 en-US)": {
+        "version": "52.8.0",
+        "publisher": "Mozilla"
+      },
+      "OCS Inventory NG Agent 2.1.1.3": {
+        "version": "2.1.1.3",
+        "publisher": "OCS Inventory NG Team"
+      },
+      "SyncBackFree": {
+        "version": "6.5.22.0",
+        "publisher": "2BrightSparks",
+        "installdate": "20180521"
+      },
+      "VLC media player": {
+        "version": "2.2.4",
+        "publisher": "VideoLAN"
+      },
+      "Vagrant": {
+        "version": "2.1.1",
+        "publisher": "HashiCorp",
+        "installdate": "20180522"
+      },
+      "Skype™ 7.41": {
+        "version": "7.41.101",
+        "publisher": "Skype Technologies S.A.",
+        "installdate": "20180518"
+      },
+      "Google Update Helper": {
+        "version": "1.3.33.17",
+        "publisher": "Google Inc.",
+        "installdate": "20180521"
+      },
+      "Microsoft Visual C++ 2015 x86 Additional Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180518"
+      },
+      "Kaspersky Endpoint Security 10 for Windows": {
+        "version": "10.3.0.6294",
+        "publisher": "Kaspersky Lab",
+        "installdate": "20180518"
+      },
+      "Microsoft Visual C++ 2015 x86 Minimum Runtime - 14.0.24215": {
+        "version": "14.0.24215",
+        "publisher": "Microsoft Corporation",
+        "installdate": "20180518"
+      },
+      "Microsoft Visual C++ 2015 Redistributable (x86) - 14.0.24215": {
+        "version": "14.0.24215.1",
+        "publisher": "Microsoft Corporation"
+      },
+      "PuTTY": {
+        "version": "0.67.0.0",
+        "publisher": "Simon Tatham",
+        "installdate": "20180518"
+      },
+      "SonicWall NetExtender": {
+        "version": "8.6.265",
+        "publisher": "SonicWall",
+        "installdate": "20180518"
+      },
+      "Intel(R) Processor Graphics": {
+        "version": "22.20.16.4771",
+        "publisher": "Intel Corporation"
+      }
+    },
+    "root_group": "Administrators",
+    "time": {
+      "timezone": "GTB Daylight Time"
+    },
+    "recipes": [
+      "pester_tests_generator",
+      "pester_tests_generator::default",
+      "pester_tests_generator::files_names"
+    ],
+    "expanded_run_list": [
+      "pester_tests_generator::default"
+    ],
+    "roles": [
+
+    ],
+    "cookbooks": {
+      "pester_tests_generator": {
+        "version": "0.1.4"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[pester_tests_generator::default]"
+  ]
+}
